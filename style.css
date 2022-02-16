@@ -1,0 +1,253 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav */
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    width: 65%;
+    font-size: 15px;
+    height: 15px;
+    margin-top: 2.7%;
+}
+
+li{
+    display: inline;
+    margin: 2%;
+}
+.logo-name{
+    font-family: cursive;
+    font-size: 23px;
+    margin-left:2%;
+    
+}
+.links{
+    width:100%;
+}
+nav>button{
+    border: 2px solid black;
+    height: 40px;
+    width: 15%;
+    margin-top: 2%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.nav-icon{
+    width:20px;
+    height:20px;
+}
+/* Hero div */
+
+.hero-div{
+    height: 600px;
+    background-image: url(./images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(192, 185, 190);
+    background-size: cover;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 50% 15%;
+    border-bottom: 4px gray solid;
+    display: inline-block;
+    width:100%;
+}
+.hero-inner-div{
+    width:45%;
+    margin-left: 10%;
+    height: 500px;
+    margin-top: 15%;
+}
+.hero-inner-div>h1{
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+}
+.hero-inner-div>p{
+    color: white;
+    font-weight: normal;
+}
+.hero-inner-div>button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 30%;
+    border: none; 
+}
+.first-visit{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    width: 50%;
+    height: 250px;
+}
+.first-visit-info{
+    width: 90%;
+    margin-left: 6%;
+    line-height: 2;
+}
+.first-visit-info>button{
+    border: none;
+    height: 40px;
+    width: 70%;
+}
+
+
+
+/* Preview div */
+
+.preview-div{
+    width: 100%;
+    display: flex;
+    height:400px;
+}
+.preview-inner-div{
+    width: 70%;
+    display: flex;
+    margin: 7% auto;
+}
+.preview-inner-boxes{
+    width: 30%;
+    text-align: center;
+    padding: 3%;
+}
+
+
+/* Video div */
+
+.video-div{
+    display:flex;
+    background-color: rgba(238, 235, 235, 0.418);
+}
+.video-div-inner{
+    margin: 5% auto;
+    width: 70%;
+}
+.video-inner-left{
+    float:left;
+    width: 40%;
+    padding-right: 6%;
+}
+.inner-left-title{
+    font-size: 25px;
+    font-weight: 200;
+}
+.inner-left-para{
+    color: rgb(97, 96, 96);
+    line-height: 2;
+}
+.video-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 50%;
+    border: none; 
+}
+
+.video-inner-right{
+    float:left;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+.video-inner-right>img{
+    width:100%;
+}
+
+/* Photo Div */
+.photo-div{
+    height: 400px;
+    display:flex;
+}
+
+.photo-div-inner{
+    margin: 4% auto;
+    display: flex;
+    width:70%;
+    height: 80%;
+}
+.inner-photo-div{
+    width:30%;
+    margin-right: 2%;
+}
+.inner-photo-div>img{
+    height:80%;
+    width:100%;
+    z-index:0;
+    z-index:0;
+}
+.photo-titles{
+    background-color: black;
+    color: white;
+    width: 75%;
+    text-align:center;
+    padding: 1px;
+    margin: -15px auto;
+    height: 50px;
+}
+.photo-titles>p{
+    font-size: 10px;
+} 
+
+/* coupon div */
+
+.coupon-inner-div{
+    margin: 0 auto;
+    background-color: rgb(240, 236, 237);
+    width: 66%;
+    height: 300px;
+    margin-left: 15%;
+    background-image: url("./images/coupon.png");
+    background-repeat: no-repeat;
+    background-size: 30% 100%;
+    background-position: right;
+}
+.coupon-info{
+    width: 50%;
+    height: 80%;
+    padding: 3% 1% 1% 6%;
+}
+
+.coupon-info>p{
+    font-size: 25px;
+}
+.percentage{
+    font-weight: bold;
+    font-size: 25px;
+}
+.coupon-info>button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 50%;
+    border: none; 
+}
+
+/* Photo Grid */
+
+.photo-grid{
+    width: 66%;
+    height: 685px;
+    margin-left: 15%;
+}
+.photo-grid>h1{
+    text-align: center;
+}
+.photo-grid>p{
+    font-size:40px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.photo-grid-inner{
+    line-height: 25px;
+    column-count: 3;
+    column-gap: 10px;
+}
+.photo-grid-inner>img{
+    width: 100%;
+}
